@@ -28,8 +28,10 @@ modules/
  - module6_orfs_reverse_comp.R – reverse complement + ORF detection
  - module7_codon_usage.R – codon usage + heatmap
  - module8_alignment.R – alignment between translated DNA and UniProt protein
- - module9_phylogeny.R – distance matrix + simple phylogenetic tree
-main_pipeline.R
+ - module9_phylogeny.R – distance matrix + simple phylogenetic tree/
+   
+main_pipeline.R/
+
 sample output/
 
 Example PDFs and text outputs generated for COX1 (NC_012920.1, P00395)
