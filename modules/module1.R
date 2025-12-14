@@ -13,7 +13,7 @@ fetch_dna <- function(ncbi_id, out_fasta = NULL) {
   
   message(">>> Fetching DNA for: ", ncbi_id)
   
-  # Try POST + FETCH method (more stable)
+  # Try POST + FETCH method
   fasta_txt <- tryCatch({
     wh <- rentrez::entrez_post(db="nucleotide", id=ncbi_id)
     rentrez::entrez_fetch(db="nucleotide", web_history=wh,
@@ -56,3 +56,4 @@ fetch_dna <- function(ncbi_id, out_fasta = NULL) {
     source = "NCBI"
   ))
 }
+
